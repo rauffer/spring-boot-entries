@@ -2,6 +2,6 @@
 <html lang="en">
     <body>
     	<p th:text="${message}" />
-        <p th:text="${'Full name: ' + user.name + ' ' + user.lastname}" />
+        <p th:text="|Full name: ${user.name} ${user.lastname}|" />
     </body>
 </html>
